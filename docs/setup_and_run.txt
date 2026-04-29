@@ -1,0 +1,36 @@
+Setup and Run Guide
+
+1. Requirements
+- Python 3.8 or higher
+- Webcam (optional for live detection)
+
+2. Install Dependencies
+Open terminal in the project folder and run:
+
+pip install -r requirements.txt
+
+3. Check Model File
+Make sure the trained model is inside the models folder.
+
+Example:
+models/model.pt
+
+4. Run the Program
+
+python src/segmentation_inference.py
+
+5. What Happens
+- Camera or image input is loaded
+- Model processes the image
+- Defects are highlighted on screen
+
+6. Troubleshooting
+
+If camera does not open:
+- Ensure no other app is using it
+
+If model not found:
+- Check models folder path
+
+If errors occur:
+- Reinstall dependencies using requirements.txt

@@ -1,0 +1,16 @@
+System Explanation
+
+This project is an AI-based wood defect segmentation system designed to detect and highlight defects in wood surfaces.
+
+The system uses a deep learning segmentation model that analyzes images and identifies defect regions at the pixel level.
+
+Unlike object detection, which uses bounding boxes, segmentation provides more precise results by marking the exact area of the defect.
+
+The model detects:
+- Small holes
+- Large holes
+- Scratches
+
+The system can process images or live camera input and outputs a visual result where defects are highlighted.
+
+This makes it useful for industrial inspection and quality control in manufacturing environments.

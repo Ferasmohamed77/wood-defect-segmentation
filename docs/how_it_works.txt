@@ -1,0 +1,24 @@
+How the System Works
+
+1. Input
+The system takes input from either:
+- A live camera feed
+- A saved image
+
+2. Preprocessing
+The image is resized and formatted to match the model’s input requirements.
+
+3. Model Inference
+The trained segmentation model processes the image and generates a mask.
+
+4. Output Mask
+The mask highlights defective regions such as:
+- Small holes
+- Large holes
+- Scratches
+
+5. Visualization
+The mask is overlaid on the original image to clearly show defect locations.
+
+6. Result
+The final output displays the detected defects in real time or as an image.
